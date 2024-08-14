@@ -1,0 +1,165 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    background-color: rgb(155, 153, 153);
+    /* content: ""; */
+    width: 600px;
+    height: 1250px;
+    margin: auto;
+}
+.parent{
+    position: relative;
+}
+.child{
+    position: absolute;
+    top: 13px;
+    right: 35%;
+
+}
+.img-des{
+    width: 540px;
+    height: 400px;
+    margin: 30px;
+    filter: blur(1px);
+    margin-bottom: -5px;
+}
+.box-1{
+    background-color: rgb(255, 217, 0);
+    width: 150px;
+    /* height: 30px; */
+    padding: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.child-1{
+    position: absolute;
+    top: 25%;
+    right: -4%;
+}
+.box-2{
+    color: black;
+    width: 55%;
+    word-spacing: 5px;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.child-2{
+    position: absolute;
+    top: 45%;
+    right: -75%;
+}
+.box-3{
+    width: 35%;
+    text-align: center;
+    font-size: 11px;
+}
+.child-3{
+    position: absolute;
+    top:65%;
+    right: 43%;
+}
+.box-4{
+    background-color: rgb(255, 217, 0);
+    /* width: 15%; */
+    padding: 4px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.box-5{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    width: 540px;
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 0px;
+}
+.center{
+    display: flex;
+    background-color: rgb(255, 217, 0);
+    width: 540px;
+    margin: auto;
+}
+.first{
+    background-color: rgb(255, 217, 0);
+    /* width: 30%; */
+}
+.head-des{
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.first{
+    text-align: center;
+}
+.second{
+    text-align: center;
+}
+.third{
+    text-align: center;
+}
+.pa-des{
+    margin-top: 0;
+    font-weight: bold;
+}
+.para-des{
+    margin-left: 10px;
+}
+.btn-des{
+    background-color: black;
+    color:  rgb(255, 217, 0);
+    width: 50%;
+    padding: 4px 10px;
+    margin: auto;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.bla-col{
+    background-color: black;
+    width: 540px;
+    height: 380px;
+    margin: auto;
+}
+.image-des{
+    width: 540px;
+    height: 250px;
+    margin-top: 15px;
+}
+.content{
+    color: rgb(255, 217, 0);  
+    display: flex;
+    justify-content: space-between;
+}
+.fit-des{
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+}
+.week-des{
+    letter-spacing: 5px;
+    font-size: 10px;
+    margin-top: 3px;
+}
+.left{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.right{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.right p{
+    display: inline-block;
+    margin-left: 20px;
+}
+.yel{
+    background-color:  rgb(255, 217, 0) ;
+    color: black;
+    padding: 7px 0px;
+   font-size: small;
+   font-weight: bold;
+}
